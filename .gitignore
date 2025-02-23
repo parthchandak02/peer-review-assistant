@@ -1,0 +1,13 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Generated Files
+output.md
+*.docx
+*.pdf
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
