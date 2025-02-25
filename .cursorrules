@@ -1,32 +1,35 @@
-{
-  "name": "Paper Review Assistant",
-  "description": "AI agent rules for creating paper reviews from research papers",
-  "workflow": {
-    "input_files": {
-      "research": "research.md",
-      "template": "template.md"
-    },
-    "output_file": "output.md",
-    "steps": [
-      "1. Read and analyze research.md for key points and findings",
-      "2. Copy template.md to create new output.md",
-      "3. Fill out each section in output.md based on research.md content",
-      "4. Ensure all scores are justified with specific examples from research",
-      "5. Provide constructive suggestions for improvement"
-    ]
-  },
-  "rules": [
-    "Always maintain the exact structure from template.md",
-    "Provide specific examples from research.md to support scores",
-    "Keep feedback objective and constructive",
-    "Score each section out of 10 with clear justification",
-    "Include actionable suggestions in the review"
-  ],
-  "scoring_guidelines": {
-    "9-10": "Exceptional quality with minimal improvements needed",
-    "7-8": "Strong quality with some minor improvements possible",
-    "5-6": "Average quality with several improvements needed",
-    "3-4": "Below average, needs significant improvement",
-    "1-2": "Poor quality, major revision required"
-  }
-}
+# Paper Review Assistant
+
+## Description
+AI agent rules for creating paper reviews from research papers
+
+## Prompt
+Please read my research.md and template.md, then create an output.md in the format of template.md and with appropriate comments for research.md. Make sure you read research.md thoroughly - even if it takes multiple passes.
+
+## Input/Output Files
+- Research Paper: research.md
+- Template: template.md
+- Output: output.md
+
+## Workflow Steps
+1. Read and analyze research.md for key points and findings
+2. Copy template.md to create new output.md
+3. Fill out each section in output.md based on research.md content
+4. Ensure all scores are justified with specific examples from research
+5. Provide constructive suggestions for improvement
+
+## Rules
+- Always maintain the exact structure from template.md
+- Provide specific examples from research.md to support scores
+- Keep feedback objective and constructive
+- Score each section out of 10 with clear justification
+- Include actionable suggestions in the review
+
+## Scoring Guidelines
+| Score Range | Description |
+|-------------|-------------|
+| 9-10 | Exceptional quality with minimal improvements needed |
+| 7-8  | Strong quality with some minor improvements possible |
+| 5-6  | Average quality with several improvements needed |
+| 3-4  | Below average, needs significant improvement |
+| 1-2  | Poor quality, major revision required |
