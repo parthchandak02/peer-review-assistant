@@ -25,7 +25,7 @@
 
 There is no program here: three Markdown files and a rules file for the
 [Cursor](https://cursor.com) editor. Paste a paper into `research.md`, ask the agent to
-review it, and it writes `output.md` in the structure of a journal's detailed review report,
+review it, and it writes `output.md` in the structure of a generic detailed review report,
 with every score backed by examples from the paper. It was a small experiment from early 2025
 and is not maintained.
 
@@ -62,8 +62,8 @@ overall score, a verdict and improvement suggestions.
 
 ## The report
 
-The template follows the detailed review form of one computing journal. Each score uses the
-same scale:
+The template is a generic reviewer report with blanks for the venue and manuscript ID; if a
+journal sends its own form, use that form's headings instead. Each score uses the same scale:
 
 | Score | Meaning |
 |---|---|

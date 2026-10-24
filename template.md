@@ -1,10 +1,13 @@
-ESP International Journal Advancements in Computational Technology [ESP-IJACT]
+# Peer Review Report
 
-**ISSN: 2583-8628**
+**Journal / venue:** __________
 
-**Article ID: __________**
+**Manuscript ID:** __________
 
-**Detailed Review Report**
+**Manuscript title:** __________
+
+<!-- Generic reviewer report. If your journal supplies its own review form, follow that form's
+     headings and scoring instead and keep the guidance below as a checklist. -->
 
 **Section-1:**
 
